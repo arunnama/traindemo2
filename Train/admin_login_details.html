@@ -1,0 +1,445 @@
+<html lang="en" class="perfect-scrollbar-on">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title> </title>
+	<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport">
+	<!-- Extra details for Live View on GitHub Pages -->
+	<!-- Canonical SEO -->
+	<!--     Fonts and icons     -->
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/demo.css">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+	<link rel='stylesheet' href='css/datepicker.min.css'>
+	<!-- CSS Files -->
+	<style type="text/css">
+				.navbar {
+					padding: 0;
+				}
+
+					.navbar ul {
+						margin: 0;
+						padding: 0;
+						display: flex;
+						list-style: none;
+						align-items: center;
+					}
+
+					.navbar li {
+						position: relative;
+					}
+
+					.navbar a,
+					.navbar a:focus {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						padding: 10px 0 10px 30px;
+						font-family: "Raleway", sans-serif;
+						font-size: 15px;
+						text-decoration: none;
+						color: #111111;
+						white-space: nowrap;
+						transition: 0.3s;
+					}
+
+						.navbar a i,
+						.navbar a:focus i {
+							font-size: 12px;
+							line-height: 0;
+							margin-left: 5px;
+						}
+
+						.navbar a:hover,
+						.navbar .active,
+						.navbar .active:focus,
+						.navbar li:hover > a {
+							color: #e03a3c;
+						}
+
+					.navbar .dropdown ul {
+						display: block;
+						position: absolute;
+						left: 30px;
+						top: calc(100% + 30px);
+						margin: 0;
+						padding: 10px 0;
+						z-index: 99;
+						opacity: 0;
+						visibility: hidden;
+						background: #fff;
+						box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+						transition: 0.3s;
+					}
+
+						.navbar .dropdown ul li {
+							min-width: 200px;
+						}
+
+						.navbar .dropdown ul a {
+							padding: 10px 20px;
+							font-size: 14px;
+							border-bottom: #efefef solid 1px;
+							text-decoration: none;
+						}
+
+							.navbar .dropdown ul a i {
+								font-size: 12px;
+							}
+
+							.navbar .dropdown ul a:hover,
+							.navbar .dropdown ul .active:hover,
+							.navbar .dropdown ul li:hover > a {
+								color: #e03a3c;
+							}
+
+					.navbar .dropdown:hover > ul {
+						opacity: 1;
+						top: 100%;
+						visibility: visible;
+					}
+
+					.navbar .dropdown .dropdown ul {
+						top: 0;
+						left: calc(100% - 30px);
+						visibility: hidden;
+					}
+
+					.navbar .dropdown .dropdown:hover > ul {
+						opacity: 1;
+						top: 0;
+						left: 100%;
+						visibility: visible;
+					}
+
+				@media (max-width: 1366px) {
+					.navbar .dropdown .dropdown ul {
+						left: -90%;
+					}
+
+					.navbar .dropdown .dropdown:hover > ul {
+						left: -100%;
+					}
+				}
+				/**
+		* Mobile Navigation
+		*/
+
+				.mobile-nav-toggle {
+					color: #111111;
+					font-size: 28px;
+					cursor: pointer;
+					display: none;
+					line-height: 0;
+					transition: 0.5s;
+				}
+
+					.mobile-nav-toggle.bi-x {
+						color: #fff;
+					}
+
+				@media (max-width: 991px) {
+					.mobile-nav-toggle {
+						display: block;
+					}
+
+					.navbar ul {
+						display: none;
+					}
+				}
+
+				.navbar-mobile {
+					position: fixed;
+					overflow: hidden;
+					top: 0;
+					right: 0;
+					left: 0;
+					bottom: 0;
+					background: rgba(0, 0, 0, 0.9);
+					transition: 0.3s;
+					z-index: 999;
+				}
+
+					.navbar-mobile .mobile-nav-toggle {
+						position: absolute;
+						top: 15px;
+						right: 15px;
+					}
+
+					.navbar-mobile ul {
+						display: block;
+						position: absolute;
+						top: 55px;
+						right: 15px;
+						bottom: 15px;
+						left: 15px;
+						padding: 10px 0;
+						background-color: #fff;
+						overflow-y: auto;
+						transition: 0.3s;
+					}
+
+					.navbar-mobile a,
+					.navbar-mobile a:focus {
+						padding: 10px 20px;
+						font-size: 15px;
+						color: #111111;
+					}
+
+						.navbar-mobile a:hover,
+						.navbar-mobile .active,
+						.navbar-mobile li:hover > a {
+							color: #e03a3c;
+						}
+
+					.navbar-mobile .getstarted,
+					.navbar-mobile .getstarted:focus {
+						margin: 15px;
+					}
+
+					.navbar-mobile .dropdown ul {
+						position: static;
+						display: none;
+						margin: 10px 20px;
+						padding: 10px 0;
+						z-index: 99;
+						opacity: 1;
+						visibility: visible;
+						background: #fff;
+						box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+					}
+
+						.navbar-mobile .dropdown ul li {
+							min-width: 200px;
+						}
+
+						.navbar-mobile .dropdown ul a {
+							padding: 10px 20px;
+						}
+
+							.navbar-mobile .dropdown ul a i {
+								font-size: 12px;
+							}
+
+							.navbar-mobile .dropdown ul a:hover,
+							.navbar-mobile .dropdown ul .active:hover,
+							.navbar-mobile .dropdown ul li:hover > a {
+								color: #e03a3c;
+							}
+
+					.navbar-mobile .dropdown > .dropdown-active {
+						display: block;
+					}
+	</style>
+
+	<body>
+
+
+
+
+
+
+
+
+
+		<div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+			<div class="card card0 border-0">
+
+				<div class=" bg-blue  py-2">
+					<nav id="navbar" class="navbar order-last order-lg-0">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="page2.html">WebSiteName</a>
+						</div>
+						<ul style="float:right;" class="px-5">
+							<li><a class="nav-link scrollto active" href="page2.html">Home</a></li>
+							<!-- <li><a class="nav-link scrollto" href="page2.html">Home</a></li> -->
+							<li><a class="nav-link scrollto" href="admin_login_details.html">Admin Log</a></li>
+							
+							<li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+						</ul><i class="fa fa-bars mobile-nav-toggle"></i>
+					</nav>
+				</div>
+				<div class="row d-flex">
+
+					<div class="col-lg-12">
+						<div class="card2 card border-0 px-3 py-4">
+		
+
+
+							<div class="row">
+								<div class="col-lg-12">
+									<h5 class=" px-0 py-4">Admin Login Details</h5>
+								</div>
+
+								<!--	<div class="col-lg-4">
+									<label>Select Date</label>
+
+									<div class="input-group mb-4">
+										<i class="fa fa-calendar input-group-text"></i>
+										<input type="text" class="datepicker_input form-control" placeholder="Select Date">
+
+
+									</div>-->
+
+								</div>
+								<table class="table table-bordered table-hover table-sm">
+									<thread>
+										<tr>
+											<th align="center">Admin</th>
+											<th align="center">Login Time</th>
+											<th align="center">Logout Time</th>
+											<th align="center">Remarks</th>
+										</tr>
+									</thread>
+									<tbody>
+										<tr>
+											<td scope="row">Admin 1</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+
+										<tr>
+											<td scope="row">Admin 2</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+
+										<tr>
+											<td scope="row">Admin 3</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+
+										<tr>
+											<td scope="row">Admin 4</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+
+										<tr>
+											<td scope="row">Admin 5</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										<tr>
+											<td scope="row">Admin 6</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+
+										<tr>
+											<td scope="row">Admin 7</td>
+											<td align="center">06-JUL-2022 08:03:00</td>
+											<td align="center">06-JUL-2022 10:05:00</td>
+											<td align="center">NA</td>
+										</tr>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="bg-blue py-4">
+						<div class="row px-3">
+							<small class="ml-4 ml-sm-5 mb-2">Copyright . All rights reserved.</small>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		
+
+
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script src='js/datepicker-full.min.js'></script>
+		<script src='js/popper.min.js'></script>
+
+		<script>
+			/* Bootstrap 5 JS included */
+			/* vanillajs-datepicker 1.1.4 JS included */
+
+			const getDatePickerTitle = elem => {
+				// From the label or the aria-label
+				const label = elem.nextElementSibling;
+				let titleText = '';
+				if (label && label.tagName === 'LABEL') {
+					titleText = label.textContent;
+				} else {
+					titleText = elem.getAttribute('aria-label') || '';
+				}
+				return titleText;
+			}
+
+			const elems = document.querySelectorAll('.datepicker_input');
+			for (const elem of elems) {
+				const datepicker = new Datepicker(elem, {
+					'format': 'dd/mm/yyyy', // UK format
+					title: getDatePickerTitle(elem)
+				});
+			}
+		</script>
+		<script type="text/javascript">
+			//	window.addEventListener("resize", function() {
+			//		"use strict"; window.location.reload();
+			//	});
+			document.addEventListener("DOMContentLoaded", function () {
+				/////// Prevent closing from click inside dropdown
+				document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+					element.addEventListener('mouseover', function (e) {
+						e.stopPropagation();
+					});
+				})
+				// make it as accordion for smaller screens
+				if (window.innerWidth < 992) {
+					// close all inner dropdowns when parent is closed
+					document.querySelectorAll('.navbar .dropdown').forEach(function (everydropdown) {
+						everydropdown.addEventListener('hidden.bs.dropdown', function () {
+							// after dropdown is hidden, then find all submenus
+							this.querySelectorAll('.submenu').forEach(function (everysubmenu) {
+								// hide every submenu as well
+								everysubmenu.style.display = 'none';
+							});
+						})
+					});
+					document.querySelectorAll('.dropdown-menu a').forEach(function (element) {
+						element.addEventListener('mouseleave', function (e) {
+							let nextEl = this.nextElementSibling;
+							if (nextEl && nextEl.classList.contains('submenu')) {
+								// prevent opening link if link needs to open dropdown
+								e.preventDefault();
+								console.log(nextEl);
+								if (nextEl.style.display == 'block') {
+									nextEl.style.display = 'none';
+								} else {
+									nextEl.style.display = 'block';
+								}
+							}
+						});
+					})
+				}
+				// end if innerWidth
+			});
+										// DOMContentLoaded  end
+		</script>
+
+	</body>
+
+</html>
