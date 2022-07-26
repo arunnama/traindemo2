@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://s3.eu-west-1.amazonaws.com/tc-a100000119001-builds/100000119/ONLINEBANKING/Builds/STB_SIT/iOS/Mobile/Native/17/ONLINEBANKING_17.ipa?AWSAccessKeyId=ASIA2ZGBLHTRBRKHONME&amp;Signature=OIRXw0opZgtSedWJohP0CeBAkOs%3D&amp;x-amz-security-token=IQoJb3JpZ2luX2VjEHkaCXVzLWVhc3QtMSJGMEQCIC9qF7td%2BO2DXQlrnehkD6kF5Te6%2BpzLLnrZyu2MyYwBAiBTVdiA4909TokpzqNcdG4XhAYSDbfli1IQgr0FrL553iqhAgjB%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDc0MTI4NzM0NTM3OCIMXNyYFwpzRG8mjWgoKvUBtR3V2PGLAXGzS5JDYHb5blRvlO0twsXl5ycb0pSXjC%2BDvxGe5gZzPVfXe1Xv1%2FktMhBRfeE4PuM4w7okLf9AN%2FkvaOqOCvJvcaKFCzR7uJpLBVAWPDkhGi9aWsuqKF%2Bv56Ylp3ay7RaxVu58tM5aUd%2FdBarVVcSzZUqwqwSh5EWigasnirqS9iCklqz2z%2BGmimtshNWc1SQs%2Fufa3ieG1aCnqPn2IhrMoyAn6oXn0mYQu45tG0SHE8c4sr79e1yO%2BpqhHBdDpIjDhPva5aqAFQMb7rfK0LJN7JO2A3fkoKoz7suHh5SDki5pEQ%2F3rYb6wJ6%2BDYswz6OAlwY6ngH987c5%2FuRJk9PlApEyht%2FoPist8rPUB6lxaBw1JbFn8X74Ecfy9xJmw%2BGHcwQ0PiVuZ595ucptTzQEkWyhag5M6pD9EoM5B7bcTNhqyoLGK%2BCd55CihJ4JiETJVVla8sgsiiWyXxjN0Y1Kku7ITAgiDQjoV011%2Fsi%2Bi3747oPjR0Wt6lGpLXGNH51riqB5T8QTMMv76ZLhjmpesNtPcw%3D%3D&amp;Expires=1658852691
+</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/Saleh7/ipa-install/master/Icon%402x.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/Saleh7/ipa-install/master/Icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+
+
+			           <dict>
+                                <key>bundle-identifier</key>
+                                <string>com.Banktech.STB</string>
+                                <key>kind</key>
+                                <string>software</string>
+                                <key>title</key>
+                                <string>ONLINEBANKING</string>
+                        </dict>
+		</dict>
+	</array>
+</dict>
+</plist>
