@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://s3.eu-west-1.amazonaws.com/tc-a100000119001-builds/100000119/ONLINEBANKING/Builds/STB_SIT/iOS/Mobile/Native/17/ONLINEBANKING_17.ipa?AWSAccessKeyId=ASIA2ZGBLHTRLG5ONO5U&Signature=hjkqSY51wr47oUW4sWI8mh18LdQ%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEHcaCXVzLWVhc3QtMSJHMEUCIC1ubrk0i9vOjQCT%2F9IwJfirZTg7yz3FS3R8WOSzN0BoAiEAiud67KgXTEBXQEa7s29e21ZMIbYbJAmwRL%2BXCPlqrzsqoQIIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw3NDEyODczNDUzNzgiDMZ05SCr0bjSuEVf2Sr1Aa3gvN%2BppKvN1egXRw1i8tfeex3NdYK9EeCC7dXFgZFtXgoT1svTx1JFLEtIPtn49XYKPAdGHKl7ggxY1fnsyg1qug75af2FDTX%2FKR%2BgxHvvqjfctw9SsJX1DZezuRZ%2BLqOOhDO48UhH%2B8kGcLvMvn1dUHDXNcIt3ZG1kZMR%2FTuK9PU1quNw3UqpSzgGHJUzB46XeEBTnUqSF%2BruNzYOKMNHNObf3ZgLriNRpV94cTJ9atx4rvXruOBEIsyKSZxeZSGN8qheDq8%2BIkSKbpaYzbbE55oyD3c3Q3CzKYTzh0gDSbBDQMIGHh7561hWSH%2FdR1hb6b6PMJDw%2F5YGOp0B%2FD4qF3CLJoYMs5Qj1ztTrBdwPwvsALu8sJfxBKXlINsu7PKEouCEMu9yOwJlNc3s1WXg9h1B76gTCjIZQfI3fZ3EbBWGlsaPE6eKwW%2BffGYOCbCv6tXGWFfT2nQfLej9nnBdh317F98KTe37fDfhQkpp9c1yhQWFCl3UAnaBDSDbGpOp0K1ijyBbQ3imWdXhpXKV4FsVWhRo6ShufA%3D%3D&Expires=1658846100</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/Saleh7/ipa-install/master/Icon%402x.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/Saleh7/ipa-install/master/Icon.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.saleh7.testapp</string>
+				<key>bundle-version</key>
+				<string>1.0</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>testapp</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
